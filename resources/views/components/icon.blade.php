@@ -1,0 +1,4 @@
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset(ispublicpath() .'/logo'. (auth()->check() && !request()->routeIs('register.link') ? '/solutionb' : '/transportpourtous') .'.webp') }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset(ispublicpath() .'/logo'. (auth()->check() && !request()->routeIs('register.link') ? '/solutionb' : '/transportpourtous') .'.webp') }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ asset(ispublicpath() .'/logo'. (auth()->check() && !request()->routeIs('register.link') ? '/solutionb' : '/transportpourtous') .'.webp') }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset(ispublicpath() .'/logo'. (auth()->check() && !request()->routeIs('register.link') ? '/solutionb' : '/transportpourtous') .'.webp') }}">  
